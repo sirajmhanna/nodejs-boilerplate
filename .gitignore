@@ -74,3 +74,12 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# .env
+.env
+.env.local 
+.env.production
+.env.development
+
+# .vscode
+.vscode
