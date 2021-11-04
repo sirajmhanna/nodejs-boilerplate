@@ -1,2 +1,2 @@
 # nodejs-boilerplate
- Nodejs Boilerplate
+ Nodejs + MySQL Boilerplate
