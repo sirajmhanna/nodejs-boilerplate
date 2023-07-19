@@ -4,7 +4,7 @@
  * @param { number } milliseconds
  * @returns { Date }
  */
-exports.millisecondsToYMD = (milliseconds) => {
+export const millisecondsToYMD = (milliseconds: number) => {
   const date = new Date(milliseconds);
   const year = date.getFullYear();
   const month = ("0" + (date.getMonth() + 1)).slice(-2);
