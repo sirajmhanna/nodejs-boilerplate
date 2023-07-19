@@ -53,14 +53,14 @@ Create .env file (check .env.example file)
   touch .env 
 ```
 
+Database Migrations
+
+```bash
+  npx knex migrate:latest
+```
+
 Start the server
 
 ```bash
   npm run dev 
-```
-
-## Create Docs
-
-```bash
-node_modules/.bin/jsdoc -c ./jsdoc.conf.json
 ```
