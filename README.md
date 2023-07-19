@@ -1,5 +1,5 @@
 
-# NodeJS Boilerpalte
+# NodeJS Boilerplate
 
 This is a repository built using NodeJS, ExpressJS, and MySQL.
 
@@ -22,11 +22,11 @@ To run this project, you will need to add the following environment variables to
 `SERVICE_NAME`
 `ENVIRONMENT`
 
-`MYSQL_DB_HOST`
-`MYSQL_DB_USER`
-`MYSQL_DB_PASSWORD`
-`MYSQL_DB_NAME`
-`MYSQL_DB_PORT`
+`MYSQL_DATABASE_HOST`
+`MYSQL_DATABASE_USER`
+`MYSQL_DATABASE_PASSWORD`
+`MYSQL_DATABASE_PORT`
+`MYSQL_DATABASE_NAME`
 
 ## Run Locally
 
@@ -57,6 +57,12 @@ Database Migrations
 
 ```bash
   npx knex migrate:latest
+```
+
+Build
+
+```bash
+  npm run build 
 ```
 
 Start the server
